@@ -2020,6 +2020,9 @@ i.material-icons.icon-no-feed {
 ::-webkit-scrollbar-thumb {
   background-color: #444;
 }
+body.ttrss_main {
+  font-size: 13px;
+}
 body.ttrss_main #toolbar-frame #toolbar {
   padding: 20px 0;
 }
