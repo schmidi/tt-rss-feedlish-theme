@@ -108,7 +108,6 @@ i.material-icons.icon-no-feed {
 body.ttrss_main {
 
 	font-size: 13px;
-	font-family: "Helvetica Neue", Arial, Helvetica, "Liberation Sans", "Nimbus Sans L", FreeSans, sans-serif;
 
 	// Increase all panels inner paddings
 	// - Toolbar top
@@ -140,6 +139,8 @@ body.ttrss_main {
 
 	// Tweak feed tree
 	#feeds-holder #feedTree {
+
+		font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 		// Remove border around rows
 		.dijitTreeRow { border: none !important; }
@@ -209,6 +210,10 @@ body.ttrss_main {
 
 		// Lighten loading GIFs
 		.loadingExpando, .loadingNode { opacity: 0.4; }
+
+		div.post div.header .title {
+			font-family: "Segoe WP Semibold", "Segoe UI Semibold", "Segoe UI Web Semibold", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
 	}
 
 	//
@@ -422,7 +427,9 @@ body.ttrss_main {
 		max-width: @feedlish-headline-feed-name-width-wide;
 		display: if(@feedlish-headline-feed-name-width-wide = 0, none, inline-flex);
 	}
-
+	.hl div.title a {
+		font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
 	// Remove separator border for:
 	// - Headlines: invisible border, so everyone is the same height
 	.hl, div#headlines-frame div.cdm.expandable { border: 1px solid @default-bg; }
