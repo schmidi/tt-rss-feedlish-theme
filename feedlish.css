@@ -2187,7 +2187,7 @@ body.ttrss_main #headlines-frame div[id^="RROW"] span.titleWrap .label > i {
 }
 body.ttrss_main #headlines-frame div[id^="RROW"] div.title a,
 body.ttrss_main #headlines-frame div[id^="RROW"] span.titleWrap a {
-  font-size: 14px !important;
+  font-size: 13px !important;
   line-height: 2em;
 }
 body.ttrss_main #headlines-frame div[id^="RROW"] div.title a:hover,
